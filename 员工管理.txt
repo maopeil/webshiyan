@@ -1,0 +1,11 @@
+员工信息表：  员工号 Id，姓名 Name ，密码 Passwd，性别 Sex,出生日期 Bir，家庭地址 Add，电话 Tel，职位  Pos，所在部门   Dep，薪资  Wage.简介 Des.
+
+奖惩表：State  状态（就是表示是奖励或者处罚，用奖励和处罚这两个来表示吧），Des  说明（说明为什么奖惩和奖惩的金额什么的）
+
+招聘信息表 ，姓名 Name ，，性别 Sex,出生日期 Bir，家庭地址 Add，电话 Tel，学历    Edu， 简介 Des,是否录用  State(T-是，F-否）
+
+培训管理表 员工号 Id， 姓名 Name ，密码 Passwd，性别 Sex,出生日期 Bir，家庭地址 Add，电话 Tel，职位  Pos，所在部门   Dep,培训课程 Class，考核评价 Des。
+
+薪资管理：员工号 Id， 姓名 Name，年月  YearMonth,基本工资 Basic，奖金 Add, 扣罚金额 Sub,实发金额  Total.
+
+系统管理：Id  员工号，姓名 Name ，密码 Passwd，性别 Sex,管理权限  Power
