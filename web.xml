@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>webtest</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>hello.jsp</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+<!-- 类名 -->
+<servlet-name>myservlet</servlet-name>
+<!-- 所在的包 -->
+<servlet-class>servlet.myservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>myservlet</servlet-name>
+<!-- 访问的网址 -->
+<url-pattern>/servlet/myservlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

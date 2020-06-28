@@ -5,8 +5,8 @@
    </head>
    <body>
      <%
-        session.invalidate();
-        response.sendRedirect("hello.jsp");
+        session.invalidate();//注销个人信息
+     	response.sendRedirect("hello.jsp");
       %>
    </body>
 </html>
